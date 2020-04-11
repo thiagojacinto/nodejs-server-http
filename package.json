@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-server-http",
+  "version": "0.0.1",
+  "description": "Creating a Basic HTTP Server with NodeJS",
+  "main": "./src/fister-server/first-servers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagojacinto/nodejs-server-http.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "http",
+    "http-server"
+  ],
+  "author": "Thiago Jacinto @ 2020",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiagojacinto/nodejs-server-http/issues"
+  },
+  "homepage": "https://github.com/thiagojacinto/nodejs-server-http#readme"
+}
