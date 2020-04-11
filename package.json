@@ -2,9 +2,10 @@
   "name": "nodejs-server-http",
   "version": "0.0.1",
   "description": "Creating a Basic HTTP Server with NodeJS",
-  "main": "./src/fister-server/first-servers.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/first-server/first-servers.js"
   },
   "repository": {
     "type": "git",
