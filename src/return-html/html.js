@@ -18,9 +18,10 @@ function alertServerStart() {
 }
 // Instantiate server:
 const server = http.createServer(returnHTML);
-
+// '__dirname' gets the full path of the actual directory
 fs.readFile(__dirname + '/index.html')
   .then(contents => {
+    // That way loads 'index.html' information into a global variable 'indexFile'
     indexFile = contents;
     // NOW OPENS PORT LISTENER:
     server.listen(port, host, () => {
